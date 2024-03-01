@@ -1,0 +1,3 @@
+<p>crew works!</p>
+<app-crew-designations [message]="messageFromCrew" (messageEmitter)="messageFromChildren($event)"></app-crew-designations>
+<p> Message from Children: {{recievedMessage}}</p>
